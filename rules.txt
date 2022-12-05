@@ -1,0 +1,14 @@
+												RULES
+					===================================================================================
+					1. Contributors are requested to keep the HTML, CSS, Images and other required files 
+					in their distinguished folder.
+
+					2. Filenames are much preferred in lowercase.
+
+					3. For now, contributors are requested to push the project files into their own branch.
+						(We will merge the files (codes) later)
+
+					
+
+
+														<i> Thank You </i>

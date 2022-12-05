@@ -7,7 +7,7 @@
 .main{
       height: 100vh;
       width: 100vw;
-      background: url('Images/org.jpg');
+      background: url('../images/org.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       
