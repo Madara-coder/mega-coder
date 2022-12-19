@@ -10,25 +10,28 @@
   </head>
 
   <body>
-    <!---------------------------------------- Disney Logo section ---------------------------------------------------->
-    <div class="logo">
-      <img src="../pics/disney_logo.svg" alt="Disney logo" />
+    <div class="login-main">
+        <div class="login-internal">
+            <!---------------------------------------- Disney Logo section ---------------------------------------------------->
+            <div class="logo-area">
+            <img src="../pics/disney_logo.svg" alt="Disney logo" id="logo" />
+            </div>
+
+            <!---------------------------------------- LogIn Section ---------------------------------------------------------->
+            <form action="post" name="login" class="login"></form>
+                <label for="Login">Log in with your email</label><br>
+                <input type="email" name="email" required maxlength = "255" minlength = "11" placeholder="Email"><br>
+                <button class="login-button">Continue</button>
+            </form>
+
+            <!---------------------------------------- SignUp Section --------------------------------------------------------->
+            <div class="sign-up">
+                <p>New to Disney+? <a href="#" id="sign-up">Sign up<a></p>
+            </div>
+
+            <!----------------------------------------------------------------------------------------------------------------->
+            </div>
     </div>
-
-    <!---------------------------------------- LogIn Section ---------------------------------------------------------->
-    <form action="post" name="login" class="login"></form>
-        <label for="Login">Log in with your email</label>
-        <input type="email" name="email" required maxlength = "255" minlength = "11" placeholder="Email">
-        <button class="login-button">Continue</button>
-    </form>
-
-    <!---------------------------------------- SignUp Section --------------------------------------------------------->
-    <div class="sign-up">
-        <p>New to Disney+? <a href="#" id="sign-up">Sign up<a></p>
-    </div>
-
-
-    <!----------------------------------------------------------------------------------------------------------------->
   </body>
 
   <script src="../js/login.js">
