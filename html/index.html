@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="shortcut icon" href="../pics/login.ico" type="image/x-icon" />
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <!--Autdio Section-->
+    <audio id="sound" src="../sound/login.wav"></audio>
+
+    <div class="login-main">
+        <div class="login-internal">
+            <!---------------------------------------- Disney Logo section ---------------------------------------------------->
+            <div class="logo-area">
+            <img src="../pics/disney_logo.svg" alt="Disney logo" id="logo" />
+            </div>
+
+            <!---------------------------------------- LogIn Section ---------------------------------------------------------->
+            <form action="post" name="login" class="login"></form>
+                <label for="Login" class="log-txt">Log in with your email</label><br>
+                <input type="email" name="email" class="email" required maxlength = "255" minlength = "11" placeholder="Email"><br>
+                <button class="login-button">Continue</button>
+            </form>
+
+            <!---------------------------------------- SignUp Section --------------------------------------------------------->
+            <div class="sign-up">
+                <p>New to Disney+? <a href="#" id="sign-up">Sign up<a></p>
+            </div>
+
+            <!----------------------------------------------------------------------------------------------------------------->
+            </div>
+    </div>
+  </body>
+
+  <script src="../js/login.js">
+    //
+  </script>
+</html>

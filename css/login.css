@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(21, 25, 37);
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.login-main {
+  position: relative;
+  height: 66vh;
+  width: 26vw;
+  border: 1px solid rgba(158, 158, 158, 0.3);
+}
+
+.login-internal {
+  position: relative;
+  top: 10%;
+  bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#logo {
+  height: 8rem; /* 1rem = 16px*/
+}
+
+.login {
+  margin: 0px;
+}
+
+.log-txt {
+  margin-top: 3rem;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.email {
+  padding: 1rem;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  color: white;
+  height: 2.5rem;
+  width: 20rem;
+  border: 1px solid rgba(158, 158, 158, 0.3);
+  border-radius: 5px;
+  background-color: rgb(44, 47, 58);
+  cursor: pointer;
+}
+
+.email:hover {
+  width: 22rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.email::placeholder {
+  color: white;
+}
+
+.login-button {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  height: 2.5rem;
+  width: 20rem;
+  border: 1px solid rgb(17, 82, 186);
+  border-radius: 5px;
+  background-color: rgb(17, 82, 186);
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: rgb(40, 109, 221);
+  border: 1px solid rgb(40, 109, 221);
+  width: 22rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.sign-up {
+  margin-top: 1.5rem;
+}
+
+.sign-up p {
+  color: rgb(228, 228, 228);
+}
+
+#sign-up {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#sign-up:hover {
+  color: rgb(40, 109, 221);
+  transition: 0.2s;
+}
