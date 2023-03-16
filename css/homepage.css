@@ -7,7 +7,7 @@
 .main {
       height: 100vh;
       width: 100vw;
-      background: url('../images/org.jpg');
+      background: url('../pics/org.jpg');
       background-repeat: no-repeat;
       background-size: cover;
 
@@ -97,15 +97,6 @@ button:hover {
       margin-top: 30px;
       animation-name: scroll;
       animation-duration: 2s;
-}
-
-.main2 {
-      height: 100vh;
-      width: 100vw;
-      background: url('../images/bg2.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-
 }
 
 
