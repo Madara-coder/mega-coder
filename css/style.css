@@ -15,26 +15,18 @@ body{
     height: 20vw;
     display: flex;
 
-    
 }
 
 .card1{
-    /* border: 2px solid black; */
     width: 32vw;
-    /* padding-right: 5px; */
     text-align: center;
-    
 }
 .card2{
-    /* border: 2px solid black; */
     width: 32vw;
-    /* padding: 0 5px; */
     text-align: center;
 }
 .card3{
-    /* border: 2px solid black; */
     width: 32vw;
-    /* padding-left: 5px; */
     text-align: center;
 }
 #img1 img{
