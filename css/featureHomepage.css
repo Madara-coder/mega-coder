@@ -1,0 +1,25 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 26px;
+}
+.container p{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 16px;
+}
+.container img{
+    width: 100vw;
+    margin-top: 8vh;
+}
