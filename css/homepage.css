@@ -1,0 +1,109 @@
+* {
+      margin: 0 0;
+      padding: 0 0;
+      font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+      height: 100vh;
+      width: 100vw;
+      background: url('../pics/homepage-backgound-image.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+
+a {
+      text-decoration: none;
+}
+
+a:hover {
+      color: black;
+}
+
+.nav {
+      display: flex;
+      justify-content: right;
+}
+
+.nav a {
+      position: fixed;
+}
+
+.nav button {
+      height: 40px;
+      width: 75px;
+      margin-top: 3vh;
+      margin-right: 3vw;
+      background-color: rgb(32, 32, 32);
+      color: azure;
+      border: solid white 1px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: 0.3s;
+}
+
+button:hover {
+      background-color: white;
+      color: black;
+}
+
+.logo img {
+      width: 200px;
+}
+
+.logo {
+      color: beige;
+      margin-top: 30px;
+      margin-left: 60px;
+}
+
+.logo .free {
+      margin-top: 20px;
+}
+
+.logo input {
+      width: 300px;
+      height: 9vh;
+      background-color: rgb(95, 95, 95);
+      border: none;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      padding-left: 6px;
+      margin: 0;
+}
+
+.logo button {
+      font-size: 18px;
+      cursor: pointer;
+      width: 150px;
+      height: 9vh;
+      margin: 0;
+      background-color: #0063e5;
+      color: beige;
+      border: none;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+}
+
+.logo span {
+      display: flex;
+}
+
+.material-symbols-outlined {
+      color: white;
+      font-size: 40px;
+      margin-top: 30px;
+      animation-name: scroll;
+      animation-duration: 2s;
+}
+
+@keyframes scroll {
+      from {
+            margin-top: 12px;
+      }
+
+      to {
+            margin-top: 30px;
+      }
+}
